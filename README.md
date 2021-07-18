@@ -25,6 +25,25 @@ https://url.spec.whatwg.org/#parsing
 
 Links:
 
+# IPv4
+
+`@"\b(?:(?:25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\.){3}(?:25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\b")`
+
+## Links
+
+https://github.com/EricZimmerman/bstrings/blob/d95a1ad3972ba3857218561a0e1929762ebab65f/bstrings/Program.cs#L876
+
+
+# IPv6
+
+`@"(?<![:.\w])(?:[A-F0-9]{1,4}:){7}[A-F0-9]{1,4}(?![:.\w])")`
+
+## Links
+
+https://github.com/EricZimmerman/bstrings/blob/d95a1ad3972ba3857218561a0e1929762ebab65f/bstrings/Program.cs#L877
+
+
+
 # To-Do
 1. Add PowerGREP Library
 2. fill out readme
