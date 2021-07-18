@@ -10,8 +10,7 @@ https://www.tablesgenerator.com/markdown_tables#
 |---|---|---|---|
 | Credit Card Numbers | `(^4[0-9]{12}(?:[0-9]{3})?$)\|(^(?:5[1-5][0-9]{2}\|222[1-9]\|22[3-9][0-9]\|2[3-6][0-9]{2}\|27[01][0-9]\|2720)[0-9]{12}$)\|(3[47][0-9]{13})\|(^3(?:0[0-5]\|[68][0-9])[0-9]{11}$)\|(^6(?:011\|5[0-9]{2})[0-9]{12}$)\|(^(?:2131\|1800\|35\d{3})\d{11}$)` |  | https://ihateregex.io/expr/credit-card |
 | Email Addresses | `[A-Za-z0-9._%+-]+(%20\|@)[A-Za-z0-9.-]+\.[A-Za-z]{2,4}` |  |  |
-|  |  |  |  |
-| IPv4 | `@"\b(?:(?:25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\.){3}(?:25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\b")` | https://regex101.com/r/Yj3q6l/1 | https://github.com/EricZimmerman/bstrings/blob/d95a1ad3972ba3857218561a0e1929762ebab65f/bstrings/Program.cs#L876 |
+| IPv4 | `@"\b(?:(?:25[0-5]\|2[0-4][0-9]\|1[0-9][0-9]\|[1-9]?[0-9])\.){3}(?:25[0-5]\|2[0-4][0-9]\|1[0-9][0-9]\|[1-9]?[0-9])\b")` | https://regex101.com/r/Yj3q6l/1 | https://github.com/EricZimmerman/bstrings/blob/d95a1ad3972ba3857218561a0e1929762ebab65f/bstrings/Program.cs#L876 |
 | IPv6 | `@"(?<![:.\w])(?:[A-F0-9]{1,4}:){7}[A-F0-9]{1,4}(?![:.\w])")` |  | https://github.com/EricZimmerman/bstrings/blob/d95a1ad3972ba3857218561a0e1929762ebab65f/bstrings/Program.cs#L877 |
 | Passwords | ` ^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$ %^&*-]).{8,}$` |  | https://ihateregex.io/expr/password/ |
 | Phone Numbers | ` ^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$` |  | https://ihateregex.io/expr/phone |
