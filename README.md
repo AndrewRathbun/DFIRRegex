@@ -3,13 +3,35 @@ A repo to centralize some of the regular expressions I've found useful over the 
 
 # Useful Regular Expressions
 
+
+https://www.tablesgenerator.com/markdown_tables#
+
+| Title | Regex | Links |
+|---|---|---|
+| URLs | `(http(s?)\|ftp(s?)\|afp):\/\/(((www\.)?\w+\.(com\|org\|net)\|(\d{1,3}\.){3}\d{1,3}))` | https://mathiasbynens.be/demo/url-regex https://url.spec.whatwg.org/#parsing |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+
+
+
+
+
+
+
 ## URLs
 
-`(http(s?)|ftp(s?)|afp):\/\/(((www\.)?\w+\.(com|org|net)|(\d{1,3}\.){3}\d{1,3}))`
 
 ### Links
-https://mathiasbynens.be/demo/url-regex
-https://url.spec.whatwg.org/#parsing
+
 
 ## Email Addresses
 
