@@ -26,8 +26,7 @@ https://www.tablesgenerator.com/markdown_tables#
 
 
 # To-Do
-1. Add PowerGREP Library
-2. fill out readme
+1. fill out readme
 3. Make Regex101 links for all the above to show how they work and don't work
 4. add resources for regex
 5. automate table of contents?
