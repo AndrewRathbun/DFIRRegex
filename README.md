@@ -7,6 +7,10 @@ A repo to centralize some of the regular expressions I've found useful over the 
 
 `(http(s?)|ftp(s?)|afp):\/\/(((www\.)?\w+\.(com|org|net)|(\d{1,3}\.){3}\d{1,3}))`
 
+### Links
+https://mathiasbynens.be/demo/url-regex
+https://url.spec.whatwg.org/#parsing
+
 ## Email Addresses
 
 `[A-Za-z0-9._%+-]+(%20|@)[A-Za-z0-9.-]+\.[A-Za-z]{2,4}`
