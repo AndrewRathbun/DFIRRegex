@@ -12,14 +12,10 @@ https://www.tablesgenerator.com/markdown_tables#
 | Email Addresses | `[A-Za-z0-9._%+-]+(%20\|@)[A-Za-z0-9.-]+\.[A-Za-z]{2,4}` | https://regex101.com/r/qf1qdh/1 |  |
 | IPv4 | `@"\b(?:(?:25[0-5]\|2[0-4][0-9]\|1[0-9][0-9]\|[1-9]?[0-9])\.){3}(?:25[0-5]\|2[0-4][0-9]\|1[0-9][0-9]\|[1-9]?[0-9])\b")` | https://regex101.com/r/Yj3q6l/1 | https://github.com/EricZimmerman/bstrings/blob/d95a1ad3972ba3857218561a0e1929762ebab65f/bstrings/Program.cs#L876 |
 | IPv6 | `(([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}\|([0-9a-fA-F]{1,4}:){1,7}:\|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}\|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}\|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}\|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}\|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}\|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})\|:((:[0-9a-fA-F]{1,4}){1,7}\|:)\|fe80:(:[0-9a-fA-F]{0,4}){0,4}%[0-9a-zA-Z]{1,}\|::(ffff(:0{1,4}){0,1}:){0,1}((25[0-5]\|(2[0-4]\|1{0,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]\|(2[0-4]\|1{0,1}[0-9]){0,1}[0-9])\|([0-9a-fA-F]{1,4}:){1,4}:((25[0-5]\|(2[0-4]\|1{0,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]\|(2[0-4]\|1{0,1}[0-9]){0,1}[0-9]))` | https://regex101.com/r/elIUjL/1 | https://www.regextester.com/25 |
-| Passwords | ` ^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$ %^&*-]).{8,}$` |  | https://ihateregex.io/expr/password/ |
+| Passwords | ` ^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$ %^&*-]).{8,}$` | https://regex101.com/r/XQ4S1b/1 | https://ihateregex.io/expr/password/ |
 | Phone Numbers | `^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$` | https://regex101.com/r/2OLXcu/1 | https://stackoverflow.com/a/16699507/15393449 |
 | US Social Security Numbers | `^(?!0{3})(?!6{3})[0-8]\d{2}-(?!0{2})\d{2}-(?!0{4})\d{4}$` | https://regex101.com/r/XDAlwg/1 | https://ihateregex.io/expr/ssn/ |
 | Username (Discord) | `^.{3,32}#[0-9]{4}$` | https://regex101.com/r/bXCZn7/1 | https://ihateregex.io/expr/discord-username/ |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
 | URLs | `(https?:\/\/)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()!@:%_\+.~#?&\/\/=]*)`| https://regex101.com/r/GeH6XU/1 | https://mathiasbynens.be/demo/url-regex https://url.spec.whatwg.org/#parsing https://ihateregex.io/expr/url |
 
 
