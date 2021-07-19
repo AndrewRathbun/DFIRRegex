@@ -15,7 +15,7 @@ https://www.tablesgenerator.com/markdown_tables#
 | Passwords | ` ^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$ %^&*-]).{8,}$` |  | https://ihateregex.io/expr/password/ |
 | Phone Numbers | `^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$` | https://regex101.com/r/2OLXcu/1 | https://stackoverflow.com/a/16699507/15393449 |
 | US Social Security Numbers | `^(?!0{3})(?!6{3})[0-8]\d{2}-(?!0{2})\d{2}-(?!0{4})\d{4}$` | https://regex101.com/r/XDAlwg/1 | https://ihateregex.io/expr/ssn/ |
-| Username (Discord) | `^.{3,32}#[0-9]{4}$` |  | https://ihateregex.io/expr/discord-username/ |
+| Username (Discord) | `^.{3,32}#[0-9]{4}$` | https://regex101.com/r/bXCZn7/1 | https://ihateregex.io/expr/discord-username/ |
 |  |  |  |  |
 |  |  |  |  |
 |  |  |  |  |
