@@ -13,7 +13,7 @@ https://www.tablesgenerator.com/markdown_tables#
 | IPv4 | `@"\b(?:(?:25[0-5]\|2[0-4][0-9]\|1[0-9][0-9]\|[1-9]?[0-9])\.){3}(?:25[0-5]\|2[0-4][0-9]\|1[0-9][0-9]\|[1-9]?[0-9])\b")` | https://regex101.com/r/Yj3q6l/1 | https://github.com/EricZimmerman/bstrings/blob/d95a1ad3972ba3857218561a0e1929762ebab65f/bstrings/Program.cs#L876 |
 | IPv6 | `@"(?<![:.\w])(?:[A-F0-9]{1,4}:){7}[A-F0-9]{1,4}(?![:.\w])")` |  | https://github.com/EricZimmerman/bstrings/blob/d95a1ad3972ba3857218561a0e1929762ebab65f/bstrings/Program.cs#L877 |
 | Passwords | ` ^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$ %^&*-]).{8,}$` |  | https://ihateregex.io/expr/password/ |
-| Phone Numbers | ` ^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$` |  | https://ihateregex.io/expr/phone |
+| Phone Numbers | `^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$` |  | https://ihateregex.io/expr/phone |
 |  |  |  |  |
 | US Social Security Numbers | `\d{3}-\d{2}-\d{4}` |  |  |
 | Username (Discord) | `^.{3,32}#[0-9]{4}$` |  | https://ihateregex.io/expr/discord-username/ |
