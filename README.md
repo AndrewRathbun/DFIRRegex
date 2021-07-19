@@ -20,7 +20,7 @@ https://www.tablesgenerator.com/markdown_tables#
 |  |  |  |  |
 |  |  |  |  |
 |  |  |  |  |
-| URLs | `(http(s?)\|ftp(s?)\|afp):\/\/(((www\.)?\w+\.(com\|org\|net)\|(\d{1,3}\.){3}\d{1,3}))`|  | https://mathiasbynens.be/demo/url-regex https://url.spec.whatwg.org/#parsing |
+| URLs | `(https?:\/\/)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()!@:%_\+.~#?&\/\/=]*)`| https://regex101.com/r/GeH6XU/1 | https://mathiasbynens.be/demo/url-regex https://url.spec.whatwg.org/#parsing https://ihateregex.io/expr/url |
 
 
 
