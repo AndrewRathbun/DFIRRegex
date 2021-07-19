@@ -1,10 +1,9 @@
 # DFIRRegex
-A repo to centralize some of the regular expressions I've found useful over the course of my DFIR career
+A repo to centralize some of the regular expressions I've found useful over the course of my DFIR career. I get sick of hunting down regular expressions all the time so this is my attempt to centralize it for myself, but also for others. 
+
+Regex101 links were included for the purpose of showing the expected hits when using the regular expressions prior to using them for your own purposes.
 
 # Useful Regular Expressions
-
-
-https://www.tablesgenerator.com/markdown_tables#
 
 | Title | Regex | Regex101 | Links/Source |
 |---|---|---|---|
@@ -14,16 +13,12 @@ https://www.tablesgenerator.com/markdown_tables#
 | IPv6 | `(([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}\|([0-9a-fA-F]{1,4}:){1,7}:\|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}\|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}\|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}\|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}\|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}\|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})\|:((:[0-9a-fA-F]{1,4}){1,7}\|:)\|fe80:(:[0-9a-fA-F]{0,4}){0,4}%[0-9a-zA-Z]{1,}\|::(ffff(:0{1,4}){0,1}:){0,1}((25[0-5]\|(2[0-4]\|1{0,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]\|(2[0-4]\|1{0,1}[0-9]){0,1}[0-9])\|([0-9a-fA-F]{1,4}:){1,4}:((25[0-5]\|(2[0-4]\|1{0,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]\|(2[0-4]\|1{0,1}[0-9]){0,1}[0-9]))` | https://regex101.com/r/elIUjL/1 | https://www.regextester.com/25 |
 | Passwords | ` ^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$ %^&*-]).{8,}$` | https://regex101.com/r/XQ4S1b/1 | https://ihateregex.io/expr/password/ |
 | Phone Numbers | `^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$` | https://regex101.com/r/2OLXcu/1 | https://stackoverflow.com/a/16699507/15393449 |
+| URLs | `(https?:\/\/)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()!@:%_\+.~#?&\/\/=]*)`| https://regex101.com/r/GeH6XU/1 | https://mathiasbynens.be/demo/url-regex https://url.spec.whatwg.org/#parsing https://ihateregex.io/expr/url |
 | US Social Security Numbers | `^(?!0{3})(?!6{3})[0-8]\d{2}-(?!0{2})\d{2}-(?!0{4})\d{4}$` | https://regex101.com/r/XDAlwg/1 | https://ihateregex.io/expr/ssn/ |
 | Username (Discord) | `^.{3,32}#[0-9]{4}$` | https://regex101.com/r/bXCZn7/1 | https://ihateregex.io/expr/discord-username/ |
-| URLs | `(https?:\/\/)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()!@:%_\+.~#?&\/\/=]*)`| https://regex101.com/r/GeH6XU/1 | https://mathiasbynens.be/demo/url-regex https://url.spec.whatwg.org/#parsing https://ihateregex.io/expr/url |
 
+# Regex Resources
 
-
-
-# To-Do
-1. fill out readme
-3. Make Regex101 links for all the above to show how they work and don't work
-4. add resources for regex
-5. automate table of contents?
-6. Add links for where expressiosn were found
+* https://www.regular-expressions.info/ - probably the best resource for regex that I've found yet! Made by the author of [PowerGREP](https://www.powergrep.com/) and [EditPad Pro](https://www.editpadpro.com/)
+* https://regex101.com/ - great for testing regular expressions
+* https://www.mockaroo.com/ - great for generating fake data to test regex
