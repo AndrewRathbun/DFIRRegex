@@ -7,6 +7,7 @@ Regex101 links were included for the purpose of showing the expected hits when u
 
 | Title | Regex | Regex101 | Links/Source |
 |---|---|---|---|
+| Age | `^(0?[1-9]{1}|[1]{1}[0-7]{1})\s?(y(\s?)o|yr(s?|z?)|year(s?|z?)|y)(\s(old)?)` | [Regex101](https://regex101.com/r/A7hL5d/1) | Digital Forensics Discord Server user `jball77` |
 | Credit Card Numbers | `(^4[0-9]{12}(?:[0-9]{3})?$)\|(^(?:5[1-5][0-9]{2}\|222[1-9]\|22[3-9][0-9]\|2[3-6][0-9]{2}\|27[01][0-9]\|2720)[0-9]{12}$)\|(3[47][0-9]{13})\|(^3(?:0[0-5]\|[68][0-9])[0-9]{11}$)\|(^6(?:011\|5[0-9]{2})[0-9]{12}$)\|(^(?:2131\|1800\|35\d{3})\d{11}$)` | [Regex101](https://regex101.com/r/HeuLIg/2/) | [IHateRegex](https://ihateregex.io/expr/credit-card) |
 | Cut Folder Hierarchy | `.+(?=((\\|\/).+){2})` | [Regex101](https://regex101.com/r/pS5urG/1) | [RegexLib](https://regexlib.com/REDetails.aspx?regexp_id=12777) |
 | Email Addresses | `(([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)\|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}\|[0-9]{1,3})(\]?)(\s*;\s*\|\s*$))*` | [Regex101](https://regex101.com/r/qf1qdh/2) | [StackOverflow](https://stackoverflow.com/questions/9809357/regex-for-validating-multiple-e-mail-addresses) |
