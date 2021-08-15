@@ -26,4 +26,5 @@ Regex101 links were included for the purpose of showing the expected hits when u
 
 * https://www.regular-expressions.info/ - probably the best resource for regex that I've found yet! Made by the author of [PowerGREP](https://www.powergrep.com/) and [EditPad Pro](https://www.editpadpro.com/)
 * https://regex101.com/ - great for testing regular expressions
+* https://regexr.com/ - serves as a regex IDE
 * https://www.mockaroo.com/ - great for generating fake data to test regex
