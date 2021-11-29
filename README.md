@@ -25,6 +25,7 @@ Regex101 links were included for the purpose of showing the expected hits when u
 | Passwords | ` ^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$ %^&*-]).{8,}$` | [Regex101](https://regex101.com/r/XQ4S1b/1) | [IHateRegex](https://ihateregex.io/expr/password/) |
 | Phone Numbers | `^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$` | [Regex101](https://regex101.com/r/2OLXcu/1) | [StackOverflow](https://stackoverflow.com/a/16699507/15393449) |
 | URLs | `(https?:\/\/)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()!@:%_\+.~#?&\/\/=]*)`| [Regex101](https://regex101.com/r/GeH6XU/1) | [mathiasbynens.be](https://mathiasbynens.be/demo/url-regex) [URL Spec](https://url.spec.whatwg.org/#parsing) [IHateRegex](https://ihateregex.io/expr/url) |
+| Valid URLs (Excluding FP from above) | `\b((ht|f)tp(s)?:\/\/|www\.)+[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9]{2,}((\/)?([-a-zA-Z0-9@:%_\+.~#?&\/=]*)?)\b` | [Regex101](https://regex101.com/r/cQYupX/3/) | `jball77` |
 | US Social Security Numbers | `^(?!0{3})(?!6{3})[0-8]\d{2}-(?!0{2})\d{2}-(?!0{4})\d{4}$` | [Regex101](https://regex101.com/r/XDAlwg/1) | [IHateRegex](https://ihateregex.io/expr/ssn/) |
 | Username (Discord) | `^.{3,32}#[0-9]{4}$` | [Regex101](https://regex101.com/r/bXCZn7/1) | [IHateRegex](https://ihateregex.io/expr/discord-username/) |
 
