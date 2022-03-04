@@ -1,5 +1,5 @@
 # DFIRRegex
-A repo to centralize some of the regular expressions I've found useful over the course of my DFIR career. I get sick of hunting down regular expressions all the time so this is my attempt to centralize it not only for myself, but also for others. 
+A repository to centralize some of the regular expressions I've found useful over the course of my DFIR career. I get sick of hunting down regular expressions all the time so this is my attempt to centralize it not only for myself, but also for others. 
 
 Regex101 links were included for the purpose of showing the expected hits when using the regular expressions prior to using them for your own purposes.
 
