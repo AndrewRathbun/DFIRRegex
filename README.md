@@ -26,6 +26,7 @@ Regex101 links were included for the purpose of showing the expected hits when u
 | MAC Address | ` ^([0-9A-Fa-f]{2}[:-]){5}([0-9A-Fa-f]{2})$` | [Regex101](https://regex101.com/r/TotZcR/1) | [StackOverflow](https://stackoverflow.com/questions/4260467/what-is-a-regular-expression-for-a-mac-address) |
 | Passwords | ` ^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$ %^&*-]).{8,}$` | [Regex101](https://regex101.com/r/XQ4S1b/1) | [IHateRegex](https://ihateregex.io/expr/password/) |
 | Phone Numbers | `^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$` | [Regex101](https://regex101.com/r/2OLXcu/1) | [StackOverflow](https://stackoverflow.com/a/16699507/15393449) |
+| Qakbot C2 | `(http|https).*\:[0-9]{2,5}\/t5` | TBD | [Twitter](https://twitter.com/Kostastsale/status/1594902025334321154?t=sGcife-eJnyRfqc8-5hHag&s=19) |
 | Remove trailing backslash from every line in a document | `\\+$` | [Regex101](https://regex101.com/r/qayALM/1) | |
 | URLs | `(https?:\/\/)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()!@:%_\+.~#?&\/\/=]*)`| [Regex101](https://regex101.com/r/GeH6XU/1) | [mathiasbynens.be](https://mathiasbynens.be/demo/url-regex) [URL Spec](https://url.spec.whatwg.org/#parsing) [IHateRegex](https://ihateregex.io/expr/url) |
 | Valid URLs (Excluding FP from above) | `\b((ht\|f)tp(s)?:\/\/\|www\.)+[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9]{2,}((\/)?([-a-zA-Z0-9@:%_\+.~#?&\/=]*)?)\b` | [Regex101](https://regex101.com/r/cQYupX/3/) | `jball77` |
